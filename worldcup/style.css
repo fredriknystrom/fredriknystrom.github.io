@@ -4,6 +4,44 @@
     font-family: "Bahnschrift", sans-serif
 }
 
+p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px;
+}
+
+h1{
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+h2{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+h3{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+h4{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
 /*----- Header and navbar -----*/
 .header{
     min-height: 10vh;
@@ -70,14 +108,9 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box h1{
-    font-size: 64px;
-    color: #fff;
-}
+
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 32px;
-    color: #fff;
 }
 .join-btn{
     display: inline-block;
@@ -85,50 +118,38 @@ nav img{
     color: #fff;
     border: 3px solid #fff;
     padding: 24px 48px;
-    font-size: 16px;
+    font-size: 24px;
     background: transparent;
     position: relative;
     cursor: pointer;
 }
 .join-btn:hover{
     color: #610129;
-    border: 2px solid #610129;
+    border: 3px solid #610129;
     background: #fff;
     transition: 0.8s;
 }
 nav .fa{
     display: none;
 }
-/*----- join page -----*/
-.join{
-
-}
-.join a{
-    text-align: center;
-    color:#000;
-}
 
 /*----- rules page-----*/
 .rules{
     width: 80%;
+    height: 100vh;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-h1{
+
+.rules h1{
     color: #610129;
-    font-size: 36px;
-    text-align: center;
-    font-weight: 600;
-    margin: 20px 0;
 }
-p{
+
+.rules p{
     color: #610129;
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 30px;
-    padding: 10px;
 }
+
 .row{
     margin-top: 5%;
     display: flex;
@@ -140,25 +161,22 @@ p{
     background: #610129;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 4% 1%;
     box-sizing: border-box;
 }
+
 .rules-col p{
-    color: #fff;
-}
-h3{
-    text-decoration: underline;
-    color: #fff;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
+   color: #fff;
 }
 
 /*----- standings page -----*/
 .standings{
     min-height: 50vh;
     margin-bottom: 100px;  
+}
+
+.standings h1{
+    color: #610129;
 }
 
 .standings p{
@@ -176,11 +194,12 @@ h3{
    
 }
 
-/*----- contact me page -----*/
+/*----- contact page -----*/
 
 .contact{
     height: 100vh;
     width: "100%";
+    padding-top: 100px;
     position: relative;
     background-color: #610129;
     
@@ -193,7 +212,6 @@ h3{
 }
 .contact p{
     text-align: center;
-    color: #fff;
 }
 /*----- Footer at bottom of each page -----*/
 .footer{
@@ -202,6 +220,19 @@ h3{
     padding: 30px 0;
 }
 .footer h4{
+    color: #610129;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footerinvert{
+    background-color: #610129;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footerinvert h4{
+    color: #fff;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
