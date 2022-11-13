@@ -170,19 +170,21 @@ nav .fa{
 }
 
 /*----- standings page -----*/
+
 .standings{
-    min-height: 50vh;
-    margin-bottom: 100px;  
+    width: 100%;
 }
 
 .standings h1{
     color: #610129;
 }
+.standings h2{
+    color: #610129;
+}
 
 .standings p{
     color: #fff;
-    text-align:center;
-    max-width: 50vh;
+    max-width: 45vh;
     background: #610129;
     margin: 0 auto;
     margin-left: auto;
@@ -193,6 +195,16 @@ nav .fa{
     box-sizing: border-box;
    
 }
+.standings-col{
+    float: left;
+    width: 50%;
+}
+
+.standings:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /*----- contact page -----*/
 
